@@ -13,10 +13,16 @@ body {
   grid-template-areas: 
       ". . . . ."
       ". bt bt bt ."
-      ". . rm . ."
+      ". fm rm . ."
       ". tb tb tb .";
 }
 
+/* added grid area for the form */
+
+.form {
+  grid-area: fm;
+  margin: auto;
+}
 
 .remaining {
   grid-area: rm;
